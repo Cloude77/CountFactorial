@@ -9,4 +9,4 @@ COPY . /app
 ENV PYTHONPATH=/app
 
 
-CMD [ "python", "factorial.py" ]
+CMD [ "python", "-u", "factorial.py" ]
